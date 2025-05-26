@@ -1,8 +1,10 @@
+import reactLogo from "../images/react-logo.png"; // match the exact case
+
 export default function Navbar() {
   return (
     <header>
       <nav>
-        <img src="../images/react-logo.png" alt="React logo" />
+        <img src={reactLogo} alt="React logo" />
         <span>ReactFacts</span>
       </nav>
     </header>
